@@ -9,9 +9,9 @@ namespace WebApi.Controllers
     {
         [HttpPost]
         public IActionResult Auth(string username, string password) {
-            if (username == "Gustavo" && password == "123456")
+            if (username == "Gustavo" && password == "123456")                  // Testando parametros de lógica.
             {
-                var token = TokenServices.GenerateToken(new model.Employee());
+                var token = TokenServices.GenerateToken(new model.Employee());  // Token gerada.
                 return Ok(token);
             }
             return BadRequest();
