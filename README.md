@@ -97,11 +97,7 @@ This will open the Swagger interface where you can explore and test the API endp
 ## Contributions
 
 Feel free to contribute to this project by submitting pull requests or reporting issues in the "Issues" section.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
+.
+.
+.
 Enjoy building your secure and well-documented API with Swagger and JWT in C#. If you have any questions or need assistance, please don't hesitate to reach out. Happy coding!
